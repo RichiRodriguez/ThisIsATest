@@ -2,7 +2,9 @@
 <details> 
 <summary>Answer</summary>
 
-* Correct Answer
+* **```diff
+	+ Correct Answer
+	+ ```**
 	- [x] SAML
 	- [x] XML
   - [ ] OAuth
