@@ -3,7 +3,6 @@
 
 <summary>Answer</summary>
 * <span style="color:red"> **Correct Answer** </span>
-
   - [x] SAML
   - [x] XML
   - [ ] OAuth
