@@ -2,9 +2,8 @@
 <details> 
 <summary>Answer</summary>
 
-* ```diff
-	+ Correct Answer
-	```
+* <span style="color:red">**Correct Answer**</span>
+
 	- [x] SAML
 	- [x] XML
   - [ ] OAuth
