@@ -1,5 +1,16 @@
 1. #### Which of the following are standards used in Federated Identity Management? (select all that apply)
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+
 <details> 
 
 	<summary>Click for answer</summary>
