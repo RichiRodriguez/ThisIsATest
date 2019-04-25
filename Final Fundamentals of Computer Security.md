@@ -1,18 +1,18 @@
 1. #### Which of the following are standards used in Federated Identity Management? (select all that apply)
-		- [x] SAML
-		- [x] XML
-		- [ ] OAuth
-		- [x] SOAP
-		- [ ] OpenID
+    - [x] SAML
+    - [x] XML
+    - [ ] OAuth
+    - [x] SOAP
+    - [ ] OpenID
 
-
+s
 
 2. #### Kerberos ... (select 3)
-		- [ ] exists because local authentication cannot be trusted
-		- [ ] requires strong passwords
-		- [x] uses asymmetric encryption for user authentication
-		- [x] is an open standard for distributed authentication
-		- [x] provides authentication service to distributed services
+    - [ ] exists because local authentication cannot be trusted
+    - [ ] requires strong passwords
+    - [x] uses asymmetric encryption for user authentication
+    - [x] is an open standard for distributed authentication
+    - [x] provides authentication service to distributed services
 
 
 
