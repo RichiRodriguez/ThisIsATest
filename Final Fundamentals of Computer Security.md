@@ -1,7 +1,8 @@
 1. #### Which of the following are standards used in Federated Identity Management? (select all that apply)
+
 <details> 
 
-	<summary>Answer</summary>
+	<summary>Click for answer</summary>
 	
 	#### Correct Answer
   - [x] SAML
