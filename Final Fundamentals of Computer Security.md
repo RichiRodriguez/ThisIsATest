@@ -1,8 +1,9 @@
 1. #### Which of the following are standards used in Federated Identity Management? (select all that apply)
-<dl> 
-  <dd>  - [x] SAML</dd>
-  <dd>  - [x] XML</dd>
-  </dd></dl>
+1. [x] SAML
+1. [x] XML
+1. [ ] OAuth
+1. [x] SOAP
+1. [ ] OpenID
 
 
 2. #### Kerberos ... (select 3)
