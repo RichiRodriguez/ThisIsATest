@@ -4,15 +4,21 @@
    - [ ] A completed Sprint Backlog
    - [ ] A product that is ready for customer delivery
 
+
+
 1. **An Agile project**
    - [ ] Is controlled by the velocity of the most junior team member
    - [x] Should be able to demonstrate control of its progress
    - [ ] Should have no control over its progress
    - [ ] Is always out of control
 
+
+
 1. **Pair programming is considered one of the most important practices of the Agile methodology**
    - [ ]  True
    - [x]  False
+
+
 
 1. **What is a good physical arrangement of the workplace in an agile environment?**
    - [ ] Open spaces but silence enforced
@@ -20,13 +26,19 @@
    - [ ] Office spaces and communications via messenger or over the phone
    - [x] Open spaces where developers sit close to each other and interact easily/
 
+
+
 1. **The definition of done means at least: developed, tested, integrated and documented.**
    - [x] True
    - [ ] False
 
+
+
 1. **Planning poker is the same as estimation poker.**
    - [x] True
    - [ ] False
+
+
 
 1. **It's dynamic - items may be deleted or added at any time during the project. It is prioritized and progressively refined.**
    - [ ] Potentially Shippable
@@ -34,11 +46,15 @@
    - [ ] Burndown Chart
    - [ ] Team
 
+
+
 1. **When using a Kanban board to manage work in progress, which of the following best summarizes the philosophy behind the approach?**
    - [ ] It is a sign of the work queued for quality assurance, which should not count toward velocity.
    - [x] It is a sign of the work being done and should be limited to boost performance.
    - [ ] It is a sign of the work being done and should be maximized to boost performance.
    - [ ] It is a sign of the work queued for user acceptance, which should not count toward velocity.
+
+
 
 1. **As per the principles of Agile Manifesto, all the following statements are incorrect except:**
    - [ ] Business people and developers must work together during the initial stages of the project
@@ -46,15 +62,21 @@
    - [ ] Business people and developers must work together during later stages of the project
    - [x] Business people and developers must work together daily throughout the project
 
+
+
 1. **Which one of the following is NOT one of the pillars of the empirical process?**
    - [ ] Adaptation.
    - [ ] Inspection.
    - [ ] Transparency.
    - [x] Control.
 
+
+
 1. **Osmotic communication means that information flows into the background hearing os members of the team, so that they pick up relevant information as though by osmosis.**
    - [ ] False
    - [x] True
+
+
 
 1. **A Development Team realizes that it has over committed itself for a Sprint, and it's needed to have a meeting to review and adjust the Sprint work. Who should attend this meeting?**
    - [ ] All three roles
@@ -445,10 +467,10 @@
 
 1. **Planning in Agile has 7 stages and the correct order is:**
 
-1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
-2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
-3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
-4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
+ 1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
+ 2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
+ 3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
+ 4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
 
 
    - [x] 2 is correct
