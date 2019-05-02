@@ -470,8 +470,6 @@
    2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
    3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
    4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
-
-
    - [x] 2 is correct
    - [ ] 3 is correct
    - [ ] 1 is correct
