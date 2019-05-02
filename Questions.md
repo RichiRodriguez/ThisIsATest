@@ -611,7 +611,7 @@
 
 
 
-1. **In SSL the client **
+1. **In SSL the client**
    - [ ] uses only private key cryptogrpahy
    - [ ] must provide the certificate with public key
    - [ ] does not need to provide a nounce
