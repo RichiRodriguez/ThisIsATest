@@ -87,6 +87,7 @@ s
 
 
 1. **Match each term to its best description.**
+
    | Term | Description |
    | ------- | ----------- |
    | Includes an authenticator encrypted by a secret key | **``Ticket``** |
