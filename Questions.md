@@ -97,11 +97,12 @@ s
 
 
 1. **Match each use to the best public key algorithm**
-| Term | Description |
-| ------- | ----------- |
-| Only for Key Exchange | **``Diﬃe-Hellman``** |
-| Only for Digital Signature | **``DSS``** |
-| For Encryption/Decryption, Digital Signature, and Key Exchange | **``RSA``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | Only for Key Exchange | **``Diﬃe-Hellman``** |
+   | Only for Digital Signature | **``DSS``** |
+   | For Encryption/Decryption, Digital Signature, and Key Exchange | **``RSA``** |
 
 
 
@@ -112,12 +113,13 @@ s
 
 
 1. **Match each term to its best description**
-| Term | Description |
-| ------- | ----------- |
-| IKE | **``establishes a secure shared secret between nodes in IPSec``** |
-| SSL | **``must use a Public Key Certificate``** |
-| IPSec | **``requires an SA in both directions``** |
-| VPN | **``establishes secure channel across the internet``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | IKE | **``establishes a secure shared secret between nodes in IPSec``** |
+   | SSL | **``must use a Public Key Certificate``** |
+   | IPSec | **``requires an SA in both directions``** |
+   | VPN | **``establishes secure channel across the internet``** |
 
 
 
@@ -232,26 +234,28 @@ s
 
 
 1. **Match each term to the best definition**
-| Term | Description |
-| ------- | ----------------- |
-| converting from plaintext to cyphertext | **``Encryption``** |
-| techniques used for decypering without any knowledge of the encypering details | **``Cryptanalysis``** |
-| Used to conceal the contents of blocks or streams of data of any size, including messages, files, encryption keys, and passwords. | **``Symmetric encryption``** |
-| Used to conceal small blocks of data, such as encryption keys and hash function values, which are used in digital signatures. | **``Asymmetric encryption``** |
-| Used to protect blocks of data, such as messages, from alteration. | **``Data integrity algorithms``** |
-| Schemes based on the use of cryptographic algorithms designed to prove the identity of entities. | **``Authentication protocols``** |
+
+   | Term | Description |
+   | ------- | ----------------- |
+   | converting from plaintext to cyphertext | **``Encryption``** |
+   | techniques used for decypering without any knowledge of the encypering details | **``Cryptanalysis``** |
+   | Used to conceal the contents of blocks or streams of data of any size, including messages, files, encryption keys, and passwords. | **``Symmetric encryption``** |
+   | Used to conceal small blocks of data, such as encryption keys and hash function values, which are used in digital signatures. | **``Asymmetric encryption``** |
+   | Used to protect blocks of data, such as messages, from alteration. | **``Data integrity algorithms``** |
+   | Schemes based on the use of cryptographic algorithms designed to prove the identity of entities. | **``Authentication protocols``** |
 
 
 
 1. **Match each item to the best description**
-| Term | Description |
-| ------- | ----------- |
-| a unique hash based on input of message block | **``MAC``** |
-| produces fixed length 160 bit output | **``SHA1``** |
-| produces fixed length 128 bit output | **``MD5``** |
-| Knowing the hash, it is infeasible for an attacker to deduct the message used to produce it | **``one-way property``** |
-| it is infeasible to find a second message with the same hash value as the first message | **``pre-image resistant weak``** |
-| prevents substitution of a message variant with equal hash to the original | **``strong collision resistant``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | a unique hash based on input of message block | **``MAC``** |
+   | produces fixed length 160 bit output | **``SHA1``** |
+   | produces fixed length 128 bit output | **``MD5``** |
+   | Knowing the hash, it is infeasible for an attacker to deduct the message used to produce it | **``one-way property``** |
+   | it is infeasible to find a second message with the same hash value as the first message | **``pre-image resistant weak``** |
+   | prevents substitution of a message variant with equal hash to the original | **``strong collision resistant``** |
 
 
 
@@ -323,12 +327,13 @@ s
 
 
 1. **Match each to the best description**
-| Term | Description |
-| ------- | ----------- |
-| packet filtering | **``uses header information to match a rule base``** |
-| SPI | **``second generation``** |
-| Application | **``Highest resource utilization``** |
-| Deep packet inspection | **``provides data loss prevention``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | packet filtering | **``uses header information to match a rule base``** |
+   | SPI | **``second generation``** |
+   | Application | **``Highest resource utilization``** |
+   | Deep packet inspection | **``provides data loss prevention``** |
 
 
 
@@ -511,16 +516,17 @@ s
 
 
 1. **Match the following terms to the appropriate definitions.**
-| Term | Description |
-| ------- | ----------- |
-| An attack that uses the Internet Control Message Protocol (ICMP) to flood a victim with packets. | **``ping flood``** |
-| Injecting and executing commands to execute on a server | **``Command Injection``** |
-| An attack that corrupts the ARP cache | **``ARP Poisoning``** |
-| A form of verification used when accessing a secure web application | **``Session Token``** |
-| An attack that occurs when a process attempts to store data in RAM beyond the boundaries of a fixed-length storage buffer | **``Buffer Overflow``** |
-| An attack that broadcasts a ping request to computers yet changes the address so that all responses are sent to the victim. | **``Smurf Attack``** |
-| An attack that substitutes DNS addresses so that the computer is automatically redirected to an attacker's device. | **``DNS Poisoning``** |
-| An attack that injects scripts into a web application server to direct attacks at clients. | **``XSS``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | An attack that uses the Internet Control Message Protocol (ICMP) to flood a victim with packets. | **``ping flood``** |
+   | Injecting and executing commands to execute on a server | **``Command Injection``** |
+   | An attack that corrupts the ARP cache | **``ARP Poisoning``** |
+   | A form of verification used when accessing a secure web application | **``Session Token``** |
+   | An attack that occurs when a process attempts to store data in RAM beyond the boundaries of a fixed-length storage buffer | **``Buffer Overflow``** |
+   | An attack that broadcasts a ping request to computers yet changes the address so that all responses are sent to the victim. | **``Smurf Attack``** |
+   | An attack that substitutes DNS addresses so that the computer is automatically redirected to an attacker's device. | **``DNS Poisoning``** |
+   | An attack that injects scripts into a web application server to direct attacks at clients. | **``XSS``** |
 
 
 
@@ -569,12 +575,13 @@ s
 
 
 1. **Match each item to its best description**
-| Term | Description |
-| ------- | ----------- |
-| Reference Monitor | **``enforces access control``** |
-| OS Security Kernel | **``includes harware``**|
-| Operating System | **``includes file system``** |
-| Bootstrap loader | **``launched by bios``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | Reference Monitor | **``enforces access control``** |
+   | OS Security Kernel | **``includes harware``**|
+   | Operating System | **``includes file system``** |
+   | Bootstrap loader | **``launched by bios``** |
 
 
 
@@ -617,23 +624,25 @@ s
 
 
 1. **Match each to the best description**
-| Term | Description |
-| ------- | ----------- |
-| OSSTMM | **``A manual for security testing produced by Institute for Security and Open Methodologies (ISECOM)``** |
-| CISSP | **``A security certification focused on policy and procedures.``** |
-| SANS | **``An organization that monitors vulnerabilities and produces training and certifications based on common exploits``** |
-| CEH | **``A certification that focuses on ethical hacking.``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | OSSTMM | **``A manual for security testing produced by Institute for Security and Open Methodologies (ISECOM)``** |
+   | CISSP | **``A security certification focused on policy and procedures.``** |
+   | SANS | **``An organization that monitors vulnerabilities and produces training and certifications based on common exploits``** |
+   | CEH | **``A certification that focuses on ethical hacking.``** |
 
 
 
 1. **Order the following to describe the phases commonly used by hackers.**
-| Phase | Followed by |
-| ------- | ----------- |
-| covering tracks | **``reconnaissance``** |
-| reconnaissance | **``scanning``** |
-| scanning | **``gaining access``** |
-| gaining access | **``maintaining access``** |
-| maintaining access | **``covering tracks``** |
+
+   | Phase | Followed by |
+   | ------- | ----------- |
+   | covering tracks | **``reconnaissance``** |
+   | reconnaissance | **``scanning``** |
+   | scanning | **``gaining access``** |
+   | gaining access | **``maintaining access``** |
+   | maintaining access | **``covering tracks``** |
 
 
 
@@ -676,12 +685,13 @@ s
 
 
 1. **Match each to the best description**
-| Term | Description |
-| ------- | ----------- |
-| Google | **``can be used to locate...``** |
-| NET | **``Can be used to reveal...``** |
-| NBTscan | **``helps identify windows...``** |
-| NetCat | **``can be used to deliver...``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | Google | **``can be used to locate...``** |
+   | NET | **``Can be used to reveal...``** |
+   | NBTscan | **``helps identify windows...``** |
+   | NetCat | **``can be used to deliver...``** |
 
 
 
@@ -692,22 +702,24 @@ s
 
 
 1. **Select the best explanation of the given term**
-| Term | Description |
-| ------- | ----------- |
-| MDM | **``manages corporate wireless...``** |
-| MobileIron | **``an example of MDM...``** |
-| Veracode | **``cloud-based app reputation...``** |
-| Adaptive enhancement | **``recommended countermeasure...``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | MDM | **``manages corporate wireless...``** |
+   | MobileIron | **``an example of MDM...``** |
+   | Veracode | **``cloud-based app reputation...``** |
+   | Adaptive enhancement | **``recommended countermeasure...``** |
 
 
 
 1. **Match each term to its best description**
-| Term | Description |
-| ------- | ----------- |
-| Aircrack-ng | **``captures and identifies...``** |
-| Airplay-ng | **``injects packets``** |
-| EAP-TLS | **``IETF-standard using certificate...``** |
-| EAP-FAST |**``authenticates using TLS...``** |
+
+   | Term | Description |
+   | ------- | ----------- |
+   | Aircrack-ng | **``captures and identifies...``** |
+   | Airplay-ng | **``injects packets``** |
+   | EAP-TLS | **``IETF-standard using certificate...``** |
+   | EAP-FAST |**``authenticates using TLS...``** |
 
 
 
