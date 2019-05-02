@@ -291,7 +291,9 @@
 
 
 1. **Which form of encryption is expressed in the following:**
+
    **Ciphertext = E(K, Plaintext)** 
+
    **Plaintext = D(K, Ciphertext)** 
 
    - [ ] Public Encryption
