@@ -466,10 +466,10 @@
 
 
 1. **Planning in Agile has 7 stages and the correct order is:**
-  1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
-  2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
-  3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
-  4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
+   1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
+   2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
+   3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
+   4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
 
 
    - [x] 2 is correct
