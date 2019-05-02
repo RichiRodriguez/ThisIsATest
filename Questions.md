@@ -4,7 +4,7 @@
    - [ ] a higher confidence level than RSA
    - [ ] a long history of usage in cryptography
 
-s
+
 
 1. **Decentralized Key Distribution is impractical because**
    - [ ] session keys replace master keys in the distribution
@@ -15,6 +15,7 @@ s
 
 
 1. **Which algorithm is described in the following**
+
    **C = E(k , p ) = (p + k ) mod 26**
    - [ ] Vigenère
    - [ ] Vernam
