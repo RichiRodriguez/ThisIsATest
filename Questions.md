@@ -399,6 +399,7 @@
 
 
 1. **Which algorithm is described as follows?**
+
    **C = M^e mod n**
    - [ ] PGP
    - [x] RSA
