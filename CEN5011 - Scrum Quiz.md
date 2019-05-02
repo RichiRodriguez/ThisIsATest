@@ -269,7 +269,7 @@
 
 
 
-1. ** An agile team is beginning a new release. Things are progressing a little slower than they initially estimated. The project manager is taking a servant leadership approach. Which of the following actions is the project manager most likely to do?**
+1. **An agile team is beginning a new release. Things are progressing a little slower than they initially estimated. The project manager is taking a servant leadership approach. Which of the following actions is the project manager most likely to do?**
    - [x] Do administrative activities for the team.
    - [ ] Demonstrate the system to senior executives.
    - [ ] Intervene in nonproductive team arguments.
@@ -386,7 +386,7 @@
 
 
 
-1. **What happens to the definition of 'Done' when multiple Development Teams are working on a single project?
+1. **What happens to the definition of 'Done' when multiple Development Teams are working on a single project?**
    - [ ] Each team defines its own 'Done', and communicates it with others so that everyone knows what it means when a team claims that they are Done with something
    - [ ] Any of the above answers, based on the nature of the project and the environment of the organization
    - [x] Each team defines its own 'Done', in a way that the integration of their work results in a definition of 'Done' that is potentially releasable
@@ -477,7 +477,7 @@
 
 
 
-1. **What does the agile manifesto say we SHOULD do with changing requirements?
+1. **What does the agile manifesto say we SHOULD do with changing requirements?**
    - [x] Welcome changing requirements, even late in development.
    - [ ] Reject all changes until the next iteration.
    - [ ] Welcome changing requirements, except late in development.
@@ -967,12 +967,10 @@
 
 
 1. **Planning in Agile has 7 stages and the correct order is:**
-1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
-2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
-3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
-4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
-
-
+   1. Sprint retrospective, Vision, Release planning, Daily scrum, Product roadmap, Sprint review, Sprint planning
+   2. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint review, Sprint retrospective
+   3. Vision, Product roadmap, Release planning, Sprint planning, Daily scrum, Sprint retrospective, Sprint review.
+   4. Vision, Product roadmap, Release planning, Daily scrum, Sprint planning, Sprint retrospective, Sprint review.
    - [ ] 3 is correct
    - [ ] 4 is correct
    - [ ] 1 is correct
