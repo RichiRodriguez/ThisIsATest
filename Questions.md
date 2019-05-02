@@ -87,11 +87,11 @@ s
 
 
 1. **Match each term to its best description.**
-| Term | Description |
-| ------- | ----------- |
-| Includes an authenticator encrypted by a secret key | **``Ticket``** |
-| Provides a ticket granting ticket to a user after authentication | **``AS``** |
-| Issues service granting tickets upon demand to authenticated users | **``TGS``** |
+   | Term | Description |
+   | ------- | ----------- |
+   | Includes an authenticator encrypted by a secret key | **``Ticket``** |
+   | Provides a ticket granting ticket to a user after authentication | **``AS``** |
+   | Issues service granting tickets upon demand to authenticated users | **``TGS``** |
 
 
 
