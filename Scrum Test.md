@@ -1,4 +1,4 @@
-1. In rationale management, we need significant changes to the solution model if there are _____**
+1. In rationale management, we need significant changes to the solution model if there are \_____**
    - [x] design faults
    - [x] implementation faults
    - [ ] new developers
