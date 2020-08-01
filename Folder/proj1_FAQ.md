@@ -93,8 +93,8 @@
 
    A sample output for 2 threads should be
    
-   ```
-   ......
+    ```
+    ......
    	Thread 0 sees the value 0
    	Thread 1 sees the value 1
    	Thread 0 sees the value 2  
@@ -108,7 +108,7 @@
    	......  
    	Thread 1 sees final value 10  
    	Thread 0 sees final value 10
-   ```
+    ```
 
 
 
