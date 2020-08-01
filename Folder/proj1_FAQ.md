@@ -8,28 +8,28 @@
 
    1. in the threads directory there is a file called 'Makefile'. in there you will see a line that reads:
       	DEFINES= -DTHREADS
-      you will have to modify this line to read something like this:
-      	DEFINES= -DTHREADS -DHW1_SEMAPHORES ...
+      you will have to modify this line to read something like this:  
+      	DEFINES= -DTHREADS -DHW1_SEMAPHORES ...  
       Remember: only include the ones you want to run.
 
    2. If you are using the Bash shell (type 'bash'), you can do it in one line, without modifying any files by using a single command. Here is the list of them (NOTE: Do NOT type the "$" sign):
 
-      Default behavior:
+      Default behavior:  
       	$ export DEFINES="-DTHREADS"; rm *.o; make; ./nachos
 
-      To test threads with semaphores:
+      To test threads with semaphores:  
       	$ export DEFINES="-DTHREADS -DHW1_SEMAPHORES"; rm *.o; make; ./nachos
 
-      To test threads with locks:
+      To test threads with locks:  
       	$ export DEFINES="-DTHREADS -DHW1_LOCKS"; rm *.o; make; ./nachos
 
-      To test the elevator solution:
+      To test the elevator solution:  
       	$ export DEFINES="-DHW1_ELEVATOR"; rm *.o; make; ./nachos
 
 
 
 2. **How do I run nachos with the -rs option?**
-   You have to specify a random seed with the rs option as:
+   You have to specify a random seed with the rs option as:  
    	./nachos -rs 43 .... here 43 is the random seed.
 
 
@@ -43,11 +43,11 @@
 
    Unlike Java, C++ needs a function signature, or prototype declared for a function to work. In this case, if you have:
 
-   ​	myFunction(int i) {
-   		printf("Hello World");
-   	}
+   ​	myFunction(int i) {  
+   ​		printf("Hello World");  
+   ​	}
 
-   you will also need:
+   you will also need:  
    	myFunction(int i);
 
    declared somewhere before the function call. This signature or prototype is usually in a header file (myClass.h) but sometimes also in the implementation file (myClass.cc). Look through some of the source code of nachos and you will find plenty of examples.
@@ -59,20 +59,20 @@
 
    Here are 2 different ways of doing this:
 
-   This is the "Official" way you see in nachos:
-   	Semaphore * sem;
-   	...
-   	sem = new Semaphore("mySem", 1);
-   	...
-   	sem->P();
-   	sem->V();
+   This is the "Official" way you see in nachos:  
+   	Semaphore * sem;  
+   	...  
+   	sem = new Semaphore("mySem", 1);  
+   	...  
+   	sem->P();  
+   	sem->V();  
 
    Threre is also this way:
-   	extern Semaphore sem;
-   	...
-   	Semaphore sem("mySem",1);
-   	...
-   	sem.P();
+   	extern Semaphore sem;  
+   	...  
+   	Semaphore sem("mySem",1);  
+   	...  
+   	sem.P();  
    	sem.V();
 
    Both of them work, so you should be able to use any of them. Just make sure your
