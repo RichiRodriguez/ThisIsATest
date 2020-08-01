@@ -12,33 +12,35 @@
       DEFINES= -DTHREADS
       ```
 
-      	you will have to modify this line to read something like this:  
+      you will have to modify this line to read something like this:  
+   		
+      ```
+      DEFINES= -DTHREADS -DHW1_SEMAPHORES ...  
+      ```
+      	
+      Remember: only include the ones you want to run.
    	
-      	```
-      	DEFINES= -DTHREADS -DHW1_SEMAPHORES ...  
-   	```
+      You will have to modify this line to read something like this:  
+      	
+      ```
+      DEFINES= -DTHREADS -DHW1_SEMAPHORES ...  
+      ```
       	
       	Remember: only include the ones you want to run.
-   	
-      	you will have to modify this line to read something like this:  
-      	
-   	```
-      	DEFINES= -DTHREADS -DHW1_SEMAPHORES ...  
-      	```
-      	
-      	Remember: only include the ones you want to run.
-      	
+
+
+      
    2. If you are using the Bash shell (type 'bash'), you can do it in one line, without modifying any files by using a single command. Here is the list of them (NOTE: Do NOT type the "$" sign):
    
       Default behavior:  
       
-   ```
+      ```
       $ export DEFINES="-DTHREADS"; rm *.o; make; ./nachos
       ```
    
       To test threads with semaphores:  
       
-   ```
+      ```
       $ export DEFINES="-DTHREADS -DHW1_SEMAPHORES"; rm *.o; make; ./nachos
       ```
       
@@ -85,12 +87,13 @@
 }   
    ```
    
+
 you will also need:  
-   
+
    ```
    myFunction(int i);
    ```
-   
+
    declared somewhere before the function call. This signature or prototype is usually in a header file (myClass.h) but sometimes also in the implementation file (myClass.cc). Look through some of the source code of nachos and you will find plenty of examples.
 
 
