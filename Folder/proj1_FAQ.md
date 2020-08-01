@@ -60,7 +60,7 @@
 
 
 
-2. **How do I run nachos with the -rs option?**
+2. **How do I run nachos with the -rs option?**  
    You have to specify a random seed with the rs option as:  
    
    ```
