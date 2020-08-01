@@ -61,14 +61,14 @@
 
    This is the "Official" way you see in nachos:  
    
-```
+	```
    Semaphore * sem;  
    ...  
    sem = new Semaphore("mySem", 1);  
    ...  
    sem->P();  
    sem->V();  
-```
+	```
    
    Threre is also this way:
    
