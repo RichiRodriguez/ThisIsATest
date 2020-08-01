@@ -60,23 +60,26 @@
    Here are 2 different ways of doing this:
 
    This is the "Official" way you see in nachos:  
+   
+   ```
    	Semaphore * sem;  
    	...  
    	sem = new Semaphore("mySem", 1);  
    	...  
-   	sem->P();  
+	sem->P();  
    	sem->V();  
-
+   ```
+   
    Threre is also this way:
    	extern Semaphore sem;  
    	...  
    	Semaphore sem("mySem",1);  
-   	...  
+	...  
    	sem.P();  
-   	sem.V();
-
+	sem.V();
+   
    Both of them work, so you should be able to use any of them. Just make sure your
-
+   
    code is consistent. Don't go back and forth, it's just confusing.
 
 
