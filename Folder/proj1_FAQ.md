@@ -130,7 +130,7 @@
 
 
 6. **What is the expected output for Exercise 1?**  
-   Suppose you set parameter to 4, your program should create threads 0,1,2,3. Also, when you use the semaphore to synchronize the SharedVariable, the value printed out should be strictly incremented. And the final value should be 5*<number of threads>.
+   Suppose you set parameter to 4, your program should create threads 0,1,2,3. Also, when you use the semaphore to synchronize the SharedVariable, the value printed out should be strictly incremented. And the final value should be 5*`<number of threads>`.
 
    A sample output for 2 threads should be
    
