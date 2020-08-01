@@ -87,18 +87,18 @@
 
    A sample output for 2 threads should be
    	......
-   	Thread 0 sees the value 0
-   	Thread 1 sees the value 1
-   	Thread 0 sees the value 2
-   	Thread 1 sees the value 3
-   	Thread 0 sees the value 4
-   	Thread 1 sees the value 5
-   	Thread 0 sees the value 6
-   	Thread 1 sees the value 7
-   	Thread 0 sees the value 8
-   	Thread 1 sees the value 9
-   	……
-   	Thread 1 sees final value 10
+   	Thread 0 sees the value 0  
+   	Thread 1 sees the value 1  
+   	Thread 0 sees the value 2  
+   	Thread 1 sees the value 3  
+   	Thread 0 sees the value 4  
+   	Thread 1 sees the value 5  
+   	Thread 0 sees the value 6  
+   	Thread 1 sees the value 7  
+   	Thread 0 sees the value 8  
+   	Thread 1 sees the value 9  
+   	……  
+   	Thread 1 sees final value 10. 
    	Thread 0 sees final value 10
 
 
