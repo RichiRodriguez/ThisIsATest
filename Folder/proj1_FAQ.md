@@ -72,14 +72,14 @@
    
    Threre is also this way:
    
-```
+   ```
    extern Semaphore sem;  
    ...  
    Semaphore sem("mySem",1);  
    ...  
    sem.P();  
    sem.V();
-```
+   ```
    
    Both of them work, so you should be able to use any of them. Just make sure your
    
