@@ -62,21 +62,24 @@
    This is the "Official" way you see in nachos:  
    
    ```
-   	Semaphore * sem;  
-   	...  
-   	sem = new Semaphore("mySem", 1);  
-   	...  
-	sem->P();  
-   	sem->V();  
+   Semaphore * sem;  
+   ...  
+   sem = new Semaphore("mySem", 1);  
+   ...  
+sem->P();  
+   sem->V();  
    ```
    
    Threre is also this way:
-   	extern Semaphore sem;  
-   	...  
-   	Semaphore sem("mySem",1);  
-	...  
-   	sem.P();  
-	sem.V();
+   
+   ```
+   extern Semaphore sem;  
+...  
+   Semaphore sem("mySem",1);  
+...  
+   sem.P();  
+   sem.V();
+   ```
    
    Both of them work, so you should be able to use any of them. Just make sure your
    
