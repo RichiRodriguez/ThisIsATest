@@ -72,13 +72,12 @@
 
 
 
-3. **What are these core files and where do they come from?**
+3. **What are these core files and where do they come from?**  
    Core files are generated when your program "Crashes". they can be quite large and take up a lot of space over time. Please make sure you have deleted all core files that you may have generated before you submit your assignment. These take a lot of space. One way to know quickly if there is a core file in your directory structure is to look at the size of the compressed archive.
 
    
 
-4. **I have created myFunction(int i) but it says it's not declared. what do I do?**
-
+4. **I have created myFunction(int i) but it says it's not declared. what do I do?**  
    Unlike Java, C++ needs a function signature, or prototype declared for a function to work. In this case, if you have:
 
    ```
@@ -98,7 +97,7 @@ you will also need:
 
 
 
-5. **I am having problems creating and using objects in my code. what's wrong?** 
+5. **I am having problems creating and using objects in my code. what's wrong?**  
    If you follow the coding guidelines in nachos and base yourself on examples of code already written, you shouldn't have any problems. Unfortunately, there are many ways to do the same thing and one of the common problems is creating and using objects.
 
    Here are 2 different ways of doing this:
@@ -131,8 +130,7 @@ you will also need:
 
 
 
-6. **What is the expected output for Exercise 1?**
-
+6. **What is the expected output for Exercise 1?**  
    Suppose you set parameter to 4, your program should create threads 0,1,2,3. Also, when you use the semaphore to synchronize the SharedVariable, the value printed out should be strictly incremented. And the final value should be 5*<number of threads>.
 
    A sample output for 2 threads should be
@@ -156,42 +154,35 @@ you will also need:
 
 
 
-7. **In exercise 1, should the thread 0 print the “see the final value” first? How can we implement barrier?**
-
+7. **In exercise 1, should the thread 0 print the “see the final value” first? How can we implement barrier?**  
    Barrier makes sure each thread will not continue until all threads achieve the specific point (i.e., finish 5 iterations of updating the SharedVariable in this case). It does not matter which thread print out the "see the final value". However, all "see the final value" should be print out at the very end of your program. 
    You can think of using the P() and V() operation to implement the "barrier".
 
 
 
-8. **For Exercise 2 does the locks solution need to also work when random interrupts are turned on using the -rs option or is this limited to exercise 1 with semaphores?**
-
+8. **For Exercise 2 does the locks solution need to also work when random interrupts are turned on using the -rs option or is this limited to exercise 1 with semaphores?**  
    All the exercises should be working with -rs option.
 
 
 
-9. **Where do we define what HW1_SEMAPHORES is, and how do we define it?**
-
+9. **Where do we define what HW1_SEMAPHORES is, and how do we define it?**  
    Please refer to the following FAQ thread:
 
    ​	https://moodle.cis.fiu.edu/v2.1/mod/page/view.php?id=10187 (no longer viewable)
 
 
 
-10. **Can I remove the currentThread->Yield() statements in SimpleThread() when using semaphone?**
-
+10. **Can I remove the currentThread->Yield() statements in SimpleThread() when using semaphone?**  
     No. currentThread->Yield() and –rs option will mass up your updating of global variable SharedVariable if you cannot use semaphore correctly. Your program should synchronize correctly even with the presence of currentThread->Yield() and –rs option.
 
 
 
-
-11. **How to verify the correctness of Lock and Condition in exercise 2 and 3?**
-
+11. **How to verify the correctness of Lock and Condition in exercise 2 and 3?**  
     Replace the semaphore you used in the exercise 1 with lock or condition, to verify if the synchronization runs correctly.
 
 
 
-12. **How many students/faculties is enough to test exercise 4?**
-
+12. **How many students/faculties is enough to test exercise 4?**  
     The number of students/faculties should be big enough (more than 20) to proof the correctness of multi-thread program.
 
 
