@@ -83,9 +83,8 @@
    ```
    myFunction(int i) {  
    	printf("Hello World");  
-}   
+   }   
    ```
-   
 
 you will also need:  
 
