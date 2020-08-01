@@ -85,8 +85,8 @@
 
    Suppose you set parameter to 4, your program should create threads 0,1,2,3. Also, when you use the semaphore to synchronize the SharedVariable, the value printed out should be strictly incremented. And the final value should be 5*<number of threads>.
 
-   A sample output for 2 threads should be
-   	......
+   A sample output for 2 threads should be  
+   	......  
    	Thread 0 sees the value 0  
    	Thread 1 sees the value 1  
    	Thread 0 sees the value 2  
@@ -98,7 +98,7 @@
    	Thread 0 sees the value 8  
    	Thread 1 sees the value 9  
    	……  
-   	Thread 1 sees final value 10. 
+   	Thread 1 sees final value 10  
    	Thread 0 sees final value 10
 
 
