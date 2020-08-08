@@ -20,8 +20,11 @@ In brief, what happens when you type **`nachos -x halt`** is as follows:
 Trace through the Nachos code until you think you understand how program **`halt`** is executed. In this assignment, you will also need to know the object file formats for Nachos. This is how a NOFF (Nachos Object File Format) looks like.
 
 ```
--------- | bss | segment -------- | data | segment -------- | code | segment
--------- | header | --------
+-------- | bss    | segment 
+-------- | data   | segment 
+-------- | code   | segment
+-------- | header | 
+--------
 ```
 
 Noff-format files consist of four parts. The first part, the Noff header, describes the contents of the rest of the file, giving information about the program's instructions (code segment), initialised variables (data segment) and uninitialised variables (bss segment). 
@@ -29,10 +32,11 @@ Noff-format files consist of four parts. The first part, the Noff header, descri
 The Noff header resides at the very start of the file and contains pointers to the remaining sections. Specifically, the Noff header contains
 
 ```
--------- |magic | 0xbadfad -------- For each of the three segments 
+-------- |magic       | 0xbadfad -------- For each of the three segments 
 -------- |virtual addr| points to the location in virtual memory 
 -------- |in file addr| points to a location within the NOFF file where section begins
--------- |size | size of the segment in bytes --------
+-------- |size        | size of the segment in bytes 
+--------
 ```
 
 This information about the NOFF can be found in /bin/noff.h file.
