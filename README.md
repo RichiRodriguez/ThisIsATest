@@ -62,30 +62,30 @@ In order for us to see how your program works, some debugging information must b
 1. Which system call is called?  
    Whenever a system call is invoked, print:  
    **`System Call: [pid] invoked [call]`**  
-   where [pid] is the identifier of the process (SpaceID) and [call] is the name of one of the system calls that you had to implement. Just give the name without parentheses (e.g., Fork, Create, Exit).
+   where **`[pid]`** is the identifier of the process (SpaceID) and **`[call]`** is the name of one of the system calls that you had to implement. Just give the name without parentheses (e.g., Fork, Create, Exit).
 
 2. How many pages are allocated to the user program when it is loaded?  
    The following line should be printed when a program is loaded:  
    **`Loaded Program: [x] code | [y] data | [z] bss`**  
-   where [x], [y] and [z] are the sizes of the code, (initialized) data and bss (uninitialized) data segments in bytes.
+   where **`[x]`**, **`[y]`**, and **`[z]`** are the sizes of the code, (initialized) data and bss (uninitialized) data segments in bytes.
 
-3. Which process has been forked and how many pages are allocated to the forked process? 
+3. Which process has been forked and how many pages are allocated to the forked process?  
    Whenever a new process is forked, print the following line:   
    **`Process [pid] Fork: start at address [addr] with [numPage] pages memory`**  
-   where [pid] is the process identifier (SpaceID) of the parent process, [addr] is the virtual address (in hexadecimal format) of the function that the new (child) process starts to execute and [numPage] is the number of pages that the new process gets.
+   where **`[pid]`** is the process identifier (SpaceID) of the parent process, **`[addr]`** is the virtual address (in hexadecimal format) of the function that the new (child) process starts to execute and **`[numPage]`** is the number of pages that the new process gets.
 
 4. What is the file name in the Exec system call?  
    When a new process should be executed, print the following line:  
    **`Exec Program: [pid] loading [name]`**  
-   where [pid] is the identifier of the process that executes an Exec system call and [name] is the name of the executable file to be loaded
+   where **`[pid]`** is the identifier of the process that executes an Exec system call and **`[name]`** is the name of the executable file to be loaded
 
 5. When a process exits, print the following line:  
    **`Process [pid] exits with [status]`**  
-   where [pid] is the identifier of the exiting process and [status] is the exit code.
+   where **`[pid]`** is the identifier of the exiting process and **`[status]`** is the exit code.
 
 6. When a process is killed, print the following line:  
    **`Process [pid] killed process [killed-pid]`**  
-   where [pid] is the identifier of the process calling Kill system call and [killed-pid] is the pid of killed process. If the call is unsuccessful, print:  
+   where **`[pid]`** is the identifier of the process calling Kill system call and **`[killed-pid]`** is the pid of killed process. If the call is unsuccessful, print:  
    **`Process [pid] cannot kill process [killed-pid]: doesn't exist`**
 
 ### Grading
