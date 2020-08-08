@@ -103,3 +103,11 @@ You should include a file under **`code/reports/project2.txt`** that *explains h
 * Upload proj2.tgz. The name of the file you will upload **must be** proj2.tgz
 
 All Done!
+
+
+### Other Refences
+
+* [FAQ](proj2_faq.md)  
+* [Implementation Guide](proj2_imp_guide.md)  
+* [Tips](proj2_tips.md)
+
