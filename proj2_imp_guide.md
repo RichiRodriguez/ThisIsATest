@@ -26,7 +26,7 @@
 
 1. Implement **`Fork()`** . Fork will create a new kernel thread and set it's AddrSpace to be a duplicate of the CurrentThread's space. It sets then **`Yield()`**. The new thread runs a dummy function that will will copy back the machine registers, PC and return registers saved from before the yield was performed. You did save the PC, return and other machine registers didn't you?  
    
-Duplicating the AddrSpace requires the implementation of a **`Memory Manager`** detailed in steps 2-4. **`Fork()`** will not work completely until the completion of step 4. Don't get stuck on step 1), steps 2-4 are much more important.
+   Duplicating the AddrSpace requires the implementation of a **`Memory Manager`** detailed in steps 2-4. **`Fork()`** will not work completely until the completion of step 4. Don't get stuck on step 1), steps 2-4 are much more important.
    
 2. Write a Memory Manager that will be used to facilitate contiguous virtual memory. The amount of memory available to the user space is the same as the amount of physical memory, it's not until the virtual memory project that you will have to implement swapping.  
 
