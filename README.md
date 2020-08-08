@@ -85,7 +85,8 @@ In order for us to see how your program works, some debugging information must b
 
 6. When a process is killed, print the following line:  
    **`Process [pid] killed process [killed-pid]`**  
-   where **`[pid]`** is the identifier of the process calling Kill system call and **`[killed-pid]`** is the pid of killed process. If the call is unsuccessful, print:  
+   where **`[pid]`** is the identifier of the process calling Kill system call and **`[killed-pid]`** is the pid of killed process.   
+   If the call is unsuccessful, print:  
    **`Process [pid] cannot kill process [killed-pid]: doesn't exist`**
 
 ### Grading
