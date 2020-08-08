@@ -3,7 +3,7 @@
 1. **How do I change the Makefile ?**  
    For project 2, you need to know how Makefiles work. Look at the Makefile in the code/test/ directory to see how halt.c is compiled and the coff and noff files produced. Your test programs for testing the new system calls should be compiled in a similar way. You can add to the existing Makefile the rules for compiling the new test programs. Here is tutorial on Makefiles. Just read the basics. Look at the example presented:
 
-   `http://theory.uwinnipeg.ca/localfiles/infofiles/make/make_toc.html`
+   `http://theory.uwinnipeg.ca/localfiles/infofiles/make/make_toc.html`  
    **Update**:  
    `https://web.archive.org/web/20070524083704/http://theory.uwinnipeg.ca/localfiles/infofiles/make/make_toc.html`
 
@@ -11,8 +11,7 @@
 2. **How do I use the gdb debugger ?**  
    You should look at gdb documentation to figure out how to use the debugger to its full extent.
 
-   For a start, you can use the following commands: 
-
+   For a start, you can use the following commands:   
    At the prompt type: **`gdb ./nachos`**  
    Once inside the debugger, the following command will run the Halt program: **`r -x ../test/halt`**
 
